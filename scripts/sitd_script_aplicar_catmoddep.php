@@ -1,0 +1,20 @@
+<?php
+set_time_limit(0);	
+include("include/dbcon.php");
+require "clases/class.dbsession.php";
+$session = new dbsession();
+if( !isset($_SESSION["pase"]) ||  $_SESSION["pase"]!=="si")
+{    
+	 echo "cancel";
+}else{
+	include("clases/class.mysql.php");
+	include("clases/class.sitd_cat_moddep.php");	
+	$catmoddep = new catmoddep();	 	
+	$catmoddep->nombremoddep = $_POST['nombremoddep'];
+	$catmoddep->eventonacional = $_POST['eventonacional'];	
+	$catmoddep->idusuario = $_POST['idusuario'];
+	$catmoddep->id = $_POST['id'];
+	$catmoddepData = $catmoddep->aplicarCatModDep();
+	echo $catmoddepData;
+}
+?>

@@ -1,0 +1,32 @@
+.mayuscula
+{
+text-transform:uppercase;
+}
+
+#desplegado-material
+{
+height:200px;
+overflow:auto;
+
+
+}
+
+#desplegado-material tr.anchotr
+{
+height:10px;
+}
+
+#desplegado-material td.anchotd
+{
+height:10px;
+}
+
+.even
+{
+	background:#eee;
+}
+
+.odd
+{
+	
+}

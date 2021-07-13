@@ -1,0 +1,672 @@
+/* OpenID icon style */
+input.system-openid, input.com-system-openid {
+   background: url(http://openid.net/login-bg.gif) no-repeat;
+   background-color: #fff;
+   background-position: 0 50%;
+   color: #000;
+   padding-left: 18px;
+   
+}
+.mayuscula{text-transform:uppercase;} 
+body {color: #000}
+table.nospace {
+        padding: 0; margin: 0;
+        border-collapse: collapse;		
+}
+table.nospace tr {
+        padding: 0; margin: 0; text-align:left;        	
+}
+table.nospace td {
+        padding: 0; margin: 0; text-align:left;
+}
+
+/* System Messages */
+#system-message    { margin-bottom: 10px; padding: 0;}
+#system-message dt { font-weight: bold; }
+#system-message dd { margin: 0; font-weight: bold; text-indent: 30px; }
+#system-message dd ul { color: #0055BB; margin-bottom: 10px; list-style: none; padding: 10px; border-top: 3px solid #84A7DB; border-bottom: 3px solid #84A7DB;}
+
+/* System Standard Messages */
+#system-message dt.message { display: none; }
+#system-message dd.message {  }
+
+/* System Error Messages */
+#system-message dt.error { display: none; }
+#system-message dd.error ul { color: #c00; background-color: #E6C0C0; border-top: 3px solid #DE7A7B; border-bottom: 3px solid #DE7A7B;}
+
+/* System Notice Messages */
+#system-message dt.notice { display: none; }
+#system-message dd.notice ul { color: #c00; background: #EFE7B8; border-top: 3px solid #F0DC7E; border-bottom: 3px solid #F0DC7E;}
+
+
+
+.ac_input{width:100%;}
+select.inputbox{width:auto;}
+
+input.inputbox{width:100%;}
+
+/* ICON MENU */
+.icon-numeros{
+	background: url(../img/icons/numeros.png) no-repeat;
+	background-position:right;
+}
+.icon-fecha{
+	background: url(../img/icons/calendar.png) no-repeat;
+	background-position:right;
+	
+}
+
+.icon-trash{
+	background: url(../img/icons/trash.png) no-repeat;
+	background-position:right;
+	width:16px;
+}
+
+.icon-autocomplet{
+	background: url(../img/icons/comment.png) no-repeat;
+	background-position:right;	
+}
+.icon-48-costo {
+	background: url(../images/header/icon-48-costo.png) no-repeat;
+}
+
+.icon-48-costoadd {
+	background: url(../images/header/icon-48-costoadd.png) no-repeat;
+}
+
+.icon-48-costoedit {
+	background: url(../images/header/icon-48-costoedit.png) no-repeat;
+}
+
+
+.icon-48-invauto {
+	background: url(../images/header/icon-48-invauto.png) no-repeat;
+}
+
+.icon-48-invautoadd {
+	background: url(../images/header/icon-48-invautoadd.png) no-repeat;
+}
+
+
+.icon-48-invautoedit {
+	background: url(../images/header/icon-48-invautoedit.png) no-repeat;
+}
+
+
+.icon-48-empresa {
+	background: url(../images/header/icon-48-empresa.png) no-repeat;
+}
+
+.icon-48-empresaadd {
+	background: url(../images/header/icon-48-empresaadd.png) no-repeat;
+}
+
+.icon-48-empresaedit {
+	background: url(../images/header/icon-48-empresaedit.png) no-repeat;
+}
+
+
+.icon-48-useradd {
+	background: url(../images/header/icon-48-useradd.png) no-repeat;
+}
+
+.icon-48-useredit {
+	background: url(../images/header/icon-48-useredit.png) no-repeat;
+}
+
+.icon-48-cliente {
+	background: url(../images/header/icon-48-cliente.png) no-repeat;
+}
+
+.icon-48-clienteaval {
+	background: url(../images/header/icon-48-clienteaval.png) no-repeat;
+}
+
+.icon-48-clienteavaladd {
+	background: url(../images/header/icon-48-clienteavaladd.png) no-repeat;
+}
+
+.icon-48-clienteavaledit {
+	background: url(../images/header/icon-48-clienteavaledit.png) no-repeat;
+}
+
+.icon-48-clienteadd {
+	background: url(../images/header/icon-48-clienteadd.png) no-repeat;
+}
+
+
+.icon-48-clienteedit {
+	background: url(../images/header/icon-48-clienteedit.png) no-repeat;
+}
+
+.icon-16-costo {
+	background: url(../images/menu/icon-16-costo.png) no-repeat;
+}
+
+
+.icon-16-autoventa {
+	background: url(../images/menu/icon-16-autoventa.png) no-repeat;
+}
+
+
+.icon-16-imprimirhistorial {
+	background: url(../images/menu/icon-16-imprimirhistorial.png) no-repeat;
+}
+
+.icon-16-adeudo {
+	background: url(../images/menu/icon-16-adeudo.png) no-repeat;
+}
+
+.icon-16-pagos {
+	background: url(../images/menu/icon-16-pagos.png) no-repeat;
+}
+
+.icon-16-vencimientos {
+	background: url(../images/menu/icon-16-vencimientos.png) no-repeat;
+}
+
+
+.icon-16-abono {
+	background: url(../images/menu/icon-16-abono.png) no-repeat;
+}
+
+
+.icon-16-resumen {
+	background: url(../images/menu/icon-16-resumen.png) no-repeat;
+}
+
+
+.icon-16-deslinde {
+	background: url(../images/menu/icon-16-deslinde.png) no-repeat;
+}
+
+
+.icon-16-pagares {
+	background: url(../images/menu/icon-16-pagares.png) no-repeat;
+}
+
+
+.icon-16-contrato {
+	background: url(../images/menu/icon-16-contrato.png) no-repeat;
+}
+
+.icon-16-cotizacion {
+	background: url(../images/menu/icon-16-cotizacion.png) no-repeat;
+}
+
+
+.icon-16-auto {
+	background: url(../images/menu/icon-16-auto.png) no-repeat;
+}
+
+.icon-16-cliente {
+	background: url(../images/menu/icon-16-cliente.png) no-repeat;
+}
+
+.icon-16-clienteaval {
+	background: url(../images/menu/icon-16-clienteaval.png) no-repeat;
+}
+
+.icon-16-print {
+	background: url(../images/printButton.png) no-repeat;
+}
+ 
+.icon-16-icon-16-cpanel {
+	background: url(../images/menu/icon-16-cpanel.png) no-repeat;
+}
+ 
+.icon-16-icon-16-user {
+	background: url(../images/menu/icon-16-user.png) no-repeat;
+}
+ 
+.icon-16-dm_result_16 {
+	background: url(../images/page_white_edit.png) no-repeat;
+}
+.icon-16-dm_categories_16 {
+	background: url(../images/dm_categories_16.png) no-repeat;
+}
+ 
+.icon-16-dm_templates_16 {
+	background: url(components/com_joomdoc/images/dm_templates_16.png) no-repeat;
+}
+ 
+.icon-16-icon-16-pdl-menu-category {
+	background: url(../images/icon-16-pdl-menu-category.png) no-repeat;
+}
+ 
+.icon-16-icon-16-pg-menu-vote {
+	background: url(../images/icon-16-pg-menu-vote.png) no-repeat;
+}
+ 
+.icon-16-icon-16-pg-menu-vote-img {
+	background: url(../images/icon-16-pg-menu-vote-img.png) no-repeat;
+}
+
+.icon-16-icon-16-pg-menu-users {
+	background: url(../images/icon-16-pg-menu-users.png) no-repeat;
+}
+
+.icon-16-icon-16-pg-menu-users-rel {
+	background: url(../images/icon-16-pg-menu-users-rel.png) no-repeat;
+}
+
+.icon-16-icon-16-pg-menu-users-add {
+	background: url(../images/icon-16-pg-menu-users-add.png) no-repeat;
+}
+
+.icon-16-red-rama {
+	background: url(../images/menu/icon-16-red-rama.png) no-repeat;
+}
+
+.icon-16-red-modalidadentedep {
+	background: url(../images/menu/icon-16-red-modalidadentedep.png) no-repeat;
+}
+
+.icon-16-red-deportes {
+	background: url(../images/menu/icon-16-red-deportes.png) no-repeat;
+}
+
+.icon-16-red-club {
+	background: url(../images/menu/icon-16-red-club.png) no-repeat;
+}
+
+.icon-16-red-liga {
+	background: url(../images/menu/icon-16-red-liga.png) no-repeat;
+}
+
+.icon-16-red-eventonacional {
+	background: url(../images/menu/icon-16-red-eventonacional.png) no-repeat;
+}
+
+.icon-16-red-municipio {
+	background: url(../images/menu/icon-16-red-municipio.png) no-repeat;
+}
+
+.icon-16-red-asociaciondep {
+	background: url(../images/menu/icon-16-red-asociaciondep.png) no-repeat;
+}
+
+.icon-16-red-pruebas {
+	background: url(../images/menu/icon-16-red-pruebas.png) no-repeat;
+}
+
+.icon-16-red-modalidaddeportiva {
+	background: url(../images/menu/icon-16-red-modalidaddeportiva.png) no-repeat;
+}
+
+.icon-16-red-eventointernacional {
+	background: url(../images/menu/icon-16-red-eventointernacional.png) no-repeat;
+}
+
+.icon-16-red-estado {
+	background: url(../images/menu/icon-16-red-estado.png) no-repeat;
+}
+
+.icon-16-red-categoria {
+	background: url(../images/menu/icon-16-red-categoria.png) no-repeat;
+}
+
+.icon-16-red-vincularasociaciondep {
+	background: url(../images/menu/icon-16-red-vincularasociaciondep.png) no-repeat;
+}
+
+
+.icon-16-red-imprimirasociaciondep {
+	background: url(../images/menu/icon-16-red-imprimirasociaciondep.png) no-repeat;
+}
+
+.icon-16-red-imprimirsirred {
+	background: url(../images/menu/icon-16-red-imprimirsirred.png) no-repeat;
+}
+
+.icon-16-red-cedulainscripcion {
+	background: url(../images/menu/icon-16-red-cedulainscripcion.png) no-repeat;
+}
+
+.icon-16-red-imprimircredencial {
+	background: url(../images/menu/icon-16-red-imprimircredencial.png) no-repeat;
+}
+
+.icon-16-red-reporteasociaciondep {
+	background: url(../images/menu/icon-16-red-reporteasociaciondep.png) no-repeat;
+}
+
+.icon-16-red-vincularevaluacionseg {
+	background: url(../images/menu/icon-16-red-vincularevaluacionseg.png) no-repeat;
+}
+
+.icon-16-red-imprimirevaluacionseg {
+	background: url(../images/menu/icon-16-red-imprimirevaluacionseg.png) no-repeat;
+}
+
+.icon-16-red-curriculumevaluacionseg {
+	background: url(../images/menu/icon-16-red-curriculumevaluacionseg.png) no-repeat;
+}
+
+.icon-16-red-reporteevaluacionseg {
+	background: url(../images/menu/icon-16-red-reporteevaluacionseg.png) no-repeat;
+}
+
+.icon-16-red-vinculareventodep {
+	background: url(../images/menu/icon-16-red-vinculareventodep.png) no-repeat;
+}
+
+.icon-16-red-validareventodep {
+	background: url(../images/menu/icon-16-red-validareventodep.png) no-repeat;
+}
+
+.icon-16-red-resultadoeventodep {
+	background: url(../images/menu/icon-16-red-resultadoeventodep.png) no-repeat;
+}
+
+.icon-16-red-impimireventodep {
+	background: url(../images/menu/icon-16-red-impimireventodep.png) no-repeat;
+}
+
+.icon-16-red-impimircedulaeventodep {
+	background: url(../images/menu/icon-16-red-impimircedulaeventodep.png) no-repeat;
+}
+
+.icon-16-red-impimirgaffeteseventodep {
+	background: url(../images/menu/icon-16-red-impimirgaffeteseventodep.png) no-repeat;
+}
+
+.icon-16-red-reporteeventodep {
+	background: url(../images/menu/icon-16-red-reporteeventodep.png) no-repeat;
+}
+
+.icon-16-red-imprimirreportecredencial {
+	background: url(../images/menu/icon-16-red-imprimirreportecredencial.png) no-repeat;
+}
+
+.icon-16-red-reportes {
+	background: url(../images/menu/icon-16-red-reportes.png) no-repeat;
+}
+
+.icon-16-red-status {
+	background: url(../images/menu/icon-16-red-status.png) no-repeat;
+}
+
+.icon-16-red-catasocdepmd {
+	background: url(../images/menu/icon-16-red-catasocdepmd.png) no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+.icon-48-red-vincularasociaciondeportiva {
+	background: url(../images/header/icon-48-red-vincularasociaciondeportiva.png) no-repeat;
+}
+
+.icon-48-red-usuario {
+	background: url(../images/header/icon-48-red-usuario.png) no-repeat;
+}
+
+.icon-48-red-catmodentdep {
+	background: url(../images/header/icon-48-red-catmodentdep.png) no-repeat;
+}
+
+.icon-48-red-catmodentdep-add {
+	background: url(../images/header/icon-48-red-catmodentdep-add.png) no-repeat;
+}
+
+.icon-48-red-catmodentdep-edit {
+	background: url(../images/header/icon-48-red-catmodentdep-edit.png) no-repeat;
+}
+
+.icon-48-red-catmodentdep-addall {
+	background: url(../images/header/icon-48-red-catmodentdep-addall.png) no-repeat;
+}
+
+.icon-48-red-catdeportes {
+	background: url(../images/header/icon-48-red-catdeportes.png) no-repeat;
+}
+
+.icon-48-red-catdeportes-add {
+	background: url(../images/header/icon-48-red-catdeportes-add.png) no-repeat;
+}
+
+.icon-48-red-catdeportes-edit {
+	background: url(../images/header/icon-48-red-catdeportes-edit.png) no-repeat;
+}
+
+.icon-48-red-catdeportes-addall {
+	background: url(../images/header/icon-48-red-catdeportes-addall.png) no-repeat;
+}
+
+.icon-48-red-catclub {
+	background: url(../images/header/icon-48-red-catclub.png) no-repeat;
+}
+
+.icon-48-red-catliga {
+	background: url(../images/header/icon-48-red-catliga.png) no-repeat;
+}
+
+.icon-48-red-cateventonacional {
+	background: url(../images/header/icon-48-red-cateventonacional.png) no-repeat;
+}
+
+.icon-48-red-cateventonacional-add {
+	background: url(../images/header/icon-48-red-cateventonacional-add.png) no-repeat;
+}
+
+.icon-48-red-cateventonacional-edit {
+	background: url(../images/header/icon-48-red-cateventonacional-edit.png) no-repeat;
+}
+
+.icon-48-red-cateventonacional-addall {
+	background: url(../images/header/icon-48-red-cateventonacional-addall.png) no-repeat;
+}
+
+.icon-48-red-catmunicipio {
+	background: url(../images/header/icon-48-red-catmunicipio.png) no-repeat;
+}
+
+.icon-48-red-catasociaciondep {
+	background: url(../images/header/icon-48-red-catasociaciondep.png) no-repeat;
+}
+
+.icon-48-red-catpruebas {
+	background: url(../images/header/icon-48-red-catpruebas.png) no-repeat;
+}
+
+.icon-48-red-catmodalidaddep {
+	background: url(../images/header/icon-48-red-catmodalidaddep.png) no-repeat;
+}
+
+.icon-48-red-catestado {
+	background: url(../images/header/icon-48-red-catestado.png) no-repeat;
+}
+
+.icon-48-red-catcategoria {
+	background: url(../images/header/icon-48-red-catcategoria.png) no-repeat;
+}
+
+.icon-48-red-imprimirsirred {
+	background: url(../images/header/icon-48-red-imprimirsirred.png) no-repeat;
+}
+
+.icon-48-red-imprimircedula {
+	background: url(../images/header/icon-48-red-imprimircedula.png) no-repeat;
+}
+
+.icon-48-red-imprimirreporte {
+	background: url(../images/header/icon-48-red-imprimirreporte.png) no-repeat;
+}
+
+.icon-48-red-imprimirevasegcurriculum {
+	background: url(../images/header/icon-48-red-imprimirevasegcurriculum.png) no-repeat;
+}
+
+.icon-48-red-validarevedep {
+	background: url(../images/header/icon-48-red-validarevedep.png) no-repeat;
+}
+
+.icon-48-red-resultadoseventodep {
+	background: url(../images/header/icon-48-red-resultadoseventodep.png) no-repeat;
+}
+
+.icon-48-red-cedulaeventodep {
+	background: url(../images/header/icon-48-red-cedulaeventodep.png) no-repeat;
+}
+
+.icon-48-red-gaffeteeventodep {
+	background: url(../images/header/icon-48-red-gaffeteeventodep.png) no-repeat;
+}
+
+.icon-48-red-reporteseventodep {
+	background: url(../images/header/icon-48-red-reporteseventodep.png) no-repeat;
+}
+
+.icon-48-red-imprimiresultadoseventodep {
+	background: url(../images/header/icon-48-red-imprimiresultadoseventodep.png) no-repeat;
+}
+
+.icon-48-red-imprimicredencial {
+	background: url(../images/header/icon-48-red-imprimicredencial.png) no-repeat;
+}
+
+.icon-48-red-imprimirstatus {
+	background: url(../images/header/icon-48-red-imprimirstatus.png) no-repeat;
+}
+
+.icon-48-red-imprimirreportes {
+	background: url(../images/header/icon-48-red-imprimirreportes.png) no-repeat;
+}
+.icon-48-red-catrama  {
+	background: url(../images/header/icon-48-red-catrama.png) no-repeat;
+}	
+.icon-48-red-catrama-add  {
+	background: url(../images/header/icon-48-red-catrama-add.png) no-repeat;
+}	
+.icon-48-red-catrama-edit  {
+	background: url(../images/header/icon-48-red-catrama-edit.png) no-repeat;
+}	
+.icon-48-red-catrama-addall  {
+	background: url(../images/header/icon-48-red-catrama-addall.png) no-repeat;
+}	
+
+.icon-48-red-catmunicipio  {
+	background: url(../images/header/icon-48-red-catmunicipio.png) no-repeat;
+}	
+.icon-48-red-catmunicipio-add  {
+	background: url(../images/header/icon-48-red-catmunicipio-add.png) no-repeat;
+}	
+.icon-48-red-catmunicipio-edit  {
+	background: url(../images/header/icon-48-red-catmunicipio-edit.png) no-repeat;
+}	
+.icon-48-red-catmunicipio-addall  {
+	background: url(../images/header/icon-48-red-catmunicipio-addall.png) no-repeat;
+}	
+
+
+.icon-48-red-catestado  {
+	background: url(../images/header/icon-48-red-catestado.png) no-repeat;
+}	
+.icon-48-red-catestado-add  {
+	background: url(../images/header/icon-48-red-catestado-add.png) no-repeat;
+}	
+.icon-48-red-catestado-edit  {
+	background: url(../images/header/icon-48-red-catestado-edit.png) no-repeat;
+}	
+.icon-48-red-catestado-addall  {
+	background: url(../images/header/icon-48-red-catestado-addall.png) no-repeat;
+}	
+
+.icon-48-red-cateveint  {
+	background: url(../images/header/icon-48-red-cateventoint.png) no-repeat;
+}	
+.icon-48-red-cateveint-add  {
+	background: url(../images/header/icon-48-red-cateventoint-add.png) no-repeat;
+}	
+.icon-48-red-cateveint-edit  {
+	background: url(../images/header/icon-48-red-cateventoint-edit.png) no-repeat;
+}	
+.icon-48-red-cateveint-addall  {
+	background: url(../images/header/icon-48-red-cateventoint-addall.png) no-repeat;
+}	
+
+.icon-48-red-catmoddep  {
+	background: url(../images/header/icon-48-red-catmodalidaddep.png) no-repeat;
+}
+.icon-48-red-catmoddep-add  {
+	background: url(../images/header/icon-48-red-catmodalidaddep-add.png) no-repeat;
+}
+.icon-48-red-catmoddep-edit  {
+	background: url(../images/header/icon-48-red-catmodalidaddep-edit.png) no-repeat;
+}
+.icon-48-red-catmoddep-addall  {
+	background: url(../images/header/icon-48-red-catmodalidaddep-addall.png) no-repeat;
+}
+
+
+.icon-48-red-catcat {
+	background: url(../images/header/icon-48-red-catcategoria.png) no-repeat;
+}
+.icon-48-red-catcat-add  {
+	background: url(../images/header/icon-48-red-catcategoria-add.png) no-repeat;
+}
+.icon-48-red-catcat-edit  {
+	background: url(../images/header/icon-48-red-catcategoria-edit.png) no-repeat;
+}
+.icon-48-red-catcat-addall  {
+	background: url(../images/header/icon-48-red-catcategoria-addall.png) no-repeat;
+}
+
+.icon-48-red-catliga {
+	background: url(../images/header/icon-48-red-catliga.png) no-repeat;
+}
+.icon-48-red-catliga-add  {
+	background: url(../images/header/icon-48-red-catliga-add.png) no-repeat;
+}
+.icon-48-red-catliga-edit  {
+	background: url(../images/header/icon-48-red-catliga-edit.png) no-repeat;
+}
+.icon-48-red-catliga-addall  {
+	background: url(../images/header/icon-48-red-catliga-addall.png) no-repeat;
+}
+
+.icon-48-red-catclub {
+	background: url(../images/header/icon-48-red-catclub.png) no-repeat;
+}
+.icon-48-red-catclub-add  {
+	background: url(../images/header/icon-48-red-catclub-add.png) no-repeat;
+}
+.icon-48-red-catclub-edit  {
+	background: url(../images/header/icon-48-red-catclub-edit.png) no-repeat;
+}
+.icon-48-red-catclub-addall  {
+	background: url(../images/header/icon-48-red-catclub-addall.png) no-repeat;
+}
+
+.icon-48-red-catasocdep {
+	background: url(../images/header/icon-48-red-catasocdep.png) no-repeat;
+}
+.icon-48-red-catasocdep-add  {
+	background: url(../images/header/icon-48-red-catasocdep-add.png) no-repeat;
+}
+.icon-48-red-catasocdep-edit  {
+	background: url(../images/header/icon-48-red-catasocdep-edit.png) no-repeat;
+}
+.icon-48-red-catasocdep-addall  {
+	background: url(../images/header/icon-48-red-catasocdep-addall.png) no-repeat;
+}
+
+.icon-48-red-catasocdepmd {
+	background: url(../images/header/icon-48-red-catasocdepmd.png) no-repeat;
+}
+.icon-48-red-catasocdepmd-add  {
+	background: url(../images/header/icon-48-red-catasocdepmd-add.png) no-repeat;
+}
+.icon-48-red-catasocdepmd-edit  {
+	background: url(../images/header/icon-48-red-catasocdepmd-edit.png) no-repeat;
+}
+.icon-48-red-catasocdepmd-addall  {
+	background: url(../images/header/icon-48-red-catasocdepmd-addall.png) no-repeat;
+}

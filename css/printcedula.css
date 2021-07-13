@@ -1,0 +1,10 @@
+body{
+margin:0px 0px 0px 0px;}
+.fondotd
+{
+background:#CCCCCC;
+}
+
+#menu, #footer, #cabecera, .contenido-irrelevante {
+   display: none;
+ }
